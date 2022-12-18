@@ -18,7 +18,7 @@ public class DashboardPage {
     @FindBy(xpath = "//span[normalize-space()='Dashboard']")
     WebElement menuDashboard;
 
-    @FindBy(xpath = "//h4[@class='oxd-text oxd-text--h4 orangehrm-module-under-development-heading']")
+    @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
     WebElement txtDashboard;
     
     public void menuDashboard(){
